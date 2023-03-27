@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Edu+NSW+ACT+Foundation:wght@500&family=Fasthand&family=Open+Sans:wght@300&family=Prompt:wght@500&family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=PT+Serif&family=Sono:wght@300&family=Splash&family=Titillium+Web&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navigation-bar {
+  font-size: 25px;
+  height: 60px;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  color: rgb(173, 173, 173);
+  border-bottom: 2px solid  rgba(163, 163, 163, 0.4);
+}
+
+.img-area {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 12px;
+  border: 1px solid gray;
+  padding: 30px;
+  margin: 10px 10px;
+  border-radius: 10px;
+}
+
+.img-area h3 {
+  color: gray;
+  padding-bottom: 24px;
+  font-style: italic;
+  bottom: 20px;
+  position: relative;
+}
+
+.select-image {
+  border: 2px solid rgb(80, 139, 80);
+  padding: 10px 20px;
+  font-family: "Courier New", Courier, monospace;
+  background: rgb(47, 129, 47);
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+  /* position: relative;
+  bottom: 50px; */
+}
+
+#display_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 580px; */
+  width: 457px;
+  height: 257px;
+  border: 1px solid black;
+  margin: 116px 0px 0px 541px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  /* display: none; */
+}
+
+#image-input {
+  width: 10px;
+  visibility: none;
+  display: none;
+}
+
+label {
+  border: 1px solid black;
+  position: relative;
+  top: 10px;
+  padding: 10px 20px;
+  width: 232px;
+  text-align: center;
+  background: green;
+  color: white;
+  border-radius: 5px;
+}
+
+
+button:hover {
+  background-color: rgb(220, 220, 220);
+  color: dodgerblue;
+}
+
+button {
+	margin: 20px 48%;
+	/* margin: auto; */
+	padding: 13px;
+	font-size: 20px;
+	border: 1px solid dodgerblue;
+	border-radius: 5px;
+	cursor: pointer;
+	color: black;
+	background: transparent;
+	/* padding: 19px; */
+}
+
+
+@media (max-width: 524px) {
+  button {
+    margin: 20px 44%;
+  }
+
+  #display_image {
+    max-width: 90%;
+    max-height: 100%;
+
+    margin: 30px 20px 0px 20px;
+  }
+}
+
+@media (max-width: 849px) {
+  #display_image {
+    margin: auto;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 850px) {
+  #display_image {
+    margin: auto;
+    margin-top: 70px;
+  }
+}
+
+/*  The css of second html class */
+
+
